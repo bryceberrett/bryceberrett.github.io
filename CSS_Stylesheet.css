@@ -3,7 +3,7 @@ background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/The_G
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: scroll;
-  background-size: 1600px 800px;
+  background-size: auto;
 }
 
 Title {
