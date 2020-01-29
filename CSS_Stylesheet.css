@@ -1,6 +1,35 @@
-body {background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AThe_Great_Wave_off_Kanagawa.jpg&psig=AOvVaw0angw9k6RQ44Mj_CoBDPj_&ust=1580418607897000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjnvafcqecCFQAAAAAdAAAAABAD");
+body {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: 1600px 800px;
 }
-Title {color: green;}
 
-h1 {margin-left: 20px;}
+Title {
+color: green;
+}
 
+h1 {
+  background-color: #3CBC8D;
+  color: White;
+  opacity: 0.95;
+margin-left: 20px;
+}
+
+p {
+  background-color: #C2DB70;
+  color: black;
+  opacity: 0.95;
+margin-left: 20px;
+}
+img {
+  opacity: 0.9;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0x;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
