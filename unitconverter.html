@@ -1,79 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link href="CSS_Stylesheet - Unit Converter.css" type="text/css" rel="stylesheet">
 </head>
 <TITLE>Unit Converter</TITLE>
-<BODY BGCOLOR=White>
-<H1>BRYCE's Unit Converter</H1>
+<body BGCOLOR=White>
+    <h1>BRYCE's Unit Converter</h1>
+<div id ="All">
+    <!--Dropdown units-->
+        <input id="MyNumber" type="text">
+        <select id="ConvertFrom">
+          <option>in</option>
+          <option>cm</option>
+          <option>ft</option>
+          <option>m</option>
+          <option>miles</option>
+          <option>kilometer</option>
+        </select>
+            Convert To:
+          <select id="ConvertTo">
+            <option>cm</option>
+            <option>in</option>
+            <option>ft</option>
+            <option>m</option>
+            <option>miles</option>
+            <option>kilometer</option>
+        </select>
+    <br><br>
+        <button onclick="Convert()">CONVERT</button>
+     <p id="Answer"></p>
+    <form>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").style.color = "red";
-} function myFunction(p1, p2) {
-  return p1 * p2;   // The function returns the product of p1 and p2
-}
-</script>
-</head>
-<body>
-    Value: <input type="number" id="myNumber" value="0"> <!--Dropdown units--><form>
-<select id="mySelect">
-  <option>in</option>
-  <option>cm</option>
-    <option>ft</option>
-  <option>m</option>
-    <option>Miles</option>
-  <option>Kilometer</option>
-</select>
-<br><br>
-</form>
-<!--Dropdown for Metric or US-->
-<form>
-<select id="mySelect">
-  <option>Metric</option>
-  <option>US</option>
-</select>
-<br><br>
-</form>
-
-<ul>
-
-</ul>
-
-<p>Convert</p>
-
-<button onclick="myFunction()">CONVERT</button>
-
-<script>
-function myFunction() {
-  Put code here;
-}
-</script>
-
-</BODY>
+    </form>
+        <h2>
+    <div id ="Answer2"> </div>
+        </h2>
+    <script type="text/javascript" src="unitconverter.js"></script>
+        </div>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

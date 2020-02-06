@@ -1,0 +1,47 @@
+body {
+background-image: url("https://vignette.wikia.nocookie.net/lotr/images/d/d8/614690.jpg/revision/latest?cb=20180501204919");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+Title {;
+}
+
+h1 {
+  background-color: #3CBC8D;
+  color: White;
+  opacity: 0.95;
+margin-left: 20px;
+}
+
+#Answer2{
+color: black;
+background-color: white;
+}
+
+
+p span{
+  background-color: #C2DB70;
+  color: black;
+  opacity: 0.95;
+margin-left: 20px;
+font-size: x-large;
+
+img {
+  opacity: 0.9;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0x;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+#All {
+text-align: center;
+}
