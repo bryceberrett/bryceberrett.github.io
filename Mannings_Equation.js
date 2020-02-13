@@ -8,8 +8,8 @@ function Solve() {
 var unitvalue;
 var units;
 var kn;
-if (Metric1.checked) {unitvalue = " m/s^2"; units = "metric"; kn = 1.0}
-else if (English1.checked) {unitvalue = " ft/s^2"; units = "english"; kn = 1.486};
+if (Metric1.checked) {unitvalue = " m/s"; units = "metric"; kn = 1.0}
+else if (English1.checked) {unitvalue = " ft/s"; units = "english"; kn = 1.486};
 var general_answer = "Computed flow velocity (v) is: ";
 
 
