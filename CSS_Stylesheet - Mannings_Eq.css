@@ -30,6 +30,7 @@ p span{
   opacity: 0.95;
 margin-left: 20px;
 font-size: x-large;
+}
 
 myimage {
   display: block;
@@ -37,7 +38,6 @@ myimage {
   margin-right: auto;
   height: 700px;
   width: 50%;
-
 }
 
 #All {
