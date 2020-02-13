@@ -27,7 +27,7 @@ console.log(Mynumber);
     Answer2.innerHTML = general_answer + Answer;
   }
   else if (ConvertFrom == "in" & ConvertTo == "m") {
-    Answer = Number(Mynumber) / 0.0254
+    Answer = Number(Mynumber) * 0.0254
     Answer2.innerHTML = Answer;
 
     Answer2.innerHTML = general_answer + Answer;

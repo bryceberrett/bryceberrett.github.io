@@ -24,7 +24,6 @@ var Answer = 0;
 //console.log(n);
 //console.log(R);
 //console.log(S);
-
 Answer = (kn/n)*Math.pow(R,2/3)*Math.pow(S,1/2);
 console.log(Answer);
 Answer2.innerHTML = general_answer + Answer + unitvalue;
