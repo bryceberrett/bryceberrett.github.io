@@ -1,5 +1,5 @@
 body {
-background-image: url("https://vignette.wikia.nocookie.net/lotr/images/d/d8/614690.jpg/revision/latest?cb=20180501204919");
+background-image: url("https://wildermuthcreativeportraits.com/wp-content/uploads/2000-20160528_201425-01.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: scroll;
@@ -31,15 +31,11 @@ p span{
 margin-left: 20px;
 font-size: x-large;
 
-img {
-  opacity: 0.9;
-  border-radius: 8px;
+myimage {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0x;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 20px;
+  width: 100%;
 }
 
 #All {
