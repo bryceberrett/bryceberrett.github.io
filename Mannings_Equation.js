@@ -24,7 +24,14 @@ var Answer = 0;
 //console.log(n);
 //console.log(R);
 //console.log(S);
+if (n < 0) {alert("n cannot be negative!")}
+else if (R < 0) {alert("R cannot be negative!")}
+else if (S < 0) {alert("S cannot be negative!")}
+else if (S == 0) {alert("S cannot be zero!")}
+else if (R == 0) {alert("R cannot be zero!")}
+else if (n == 0) {alert("n cannot be zero! Super-Teflon does not exist yet!")}
+else {
 Answer = (kn/n)*Math.pow(R,2/3)*Math.pow(S,1/2);
 console.log(Answer);
 Answer2.innerHTML = general_answer + Answer + unitvalue;
-};
+}};
