@@ -1,0 +1,37 @@
+body {
+background-image: url("NewZealand.JPG");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+Title {
+color: green;
+}
+
+h1 {
+  background-color:
+  color: White;
+  opacity: 0.95;
+margin-left: 20px;
+}
+
+p {
+  background-color: #C2DB70;
+  color: black;
+  opacity: 0.95;
+margin-left: 20px;
+}
+img {
+  opacity: 0.9;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0x;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+#mapid { height: 180px; }
