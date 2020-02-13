@@ -6,16 +6,25 @@
 
 function Solve() {
 var unitvalue;
-if (document.getElementById("units").value == 'metric') {unitvalue = " m/s^2"}
-else if (document.getElementById("units").value == 'english') {unitvalue = " ft/s^2"};
+var units;
+var kn;
+if (Metric1.checked) {unitvalue = " m/s^2"; units = "metric"; kn = 1.0}
+else if (English1.checked) {unitvalue = " ft/s^2"; units = "english"; kn = 1.486};
 var general_answer = "Computed flow velocity (v) is: ";
 
-var units = document.getElementById("units").value;
-var kn
+
 //console.log(kn);
-if (document.getElementById("units").value == 'metric') {kn = 1.0}
-else if (document.getElementById("units").value == 'english') {kn = 1.486};
+
+//This was for a dropdown menu
+//if (document.getElementById("units").value == 'metric') {kn = 1.0}
+//else if (document.getElementById("units").value == 'english') {kn = 1.486};
+//document.getElementById("kn_value").value = "Kn value: " + kn;
+
+//This is for Radio buttons
+//if (document.getElementById("Units1").value == 'Metric1') {kn = 1.0}
+//else if (document.getElementById("Units1").value == 'English1') {kn = 1.486};
 document.getElementById("kn_value").value = "Kn value: " + kn;
+
 console.log(kn);
 var n = document.getElementById("n").value;
 var R = document.getElementById("R").value;
@@ -24,12 +33,12 @@ var Answer = 0;
 //console.log(n);
 //console.log(R);
 //console.log(S);
-if (n < 0) {alert("n cannot be negative!")}
-else if (R < 0) {alert("R cannot be negative!")}
-else if (S < 0) {alert("S cannot be negative!")}
-else if (S == 0) {alert("S cannot be zero!")}
-else if (R == 0) {alert("R cannot be zero!")}
-else if (n == 0) {alert("n cannot be zero! Super-Teflon does not exist yet!")}
+if (n < 0) {Answer2.innerHTML = ""; alert("n cannot be negative!")}
+else if (R < 0) {Answer2.innerHTML = ""; alert("R cannot be negative!")}
+else if (S < 0) {Answer2.innerHTML = ""; alert("S cannot be negative!")}
+else if (S == 0) {Answer2.innerHTML = ""; alert("S cannot be zero!")}
+else if (R == 0) {Answer2.innerHTML = ""; alert("R cannot be zero!")}
+else if (n == 0) {Answer2.innerHTML = ""; alert("n cannot be zero! Super-Teflon does not exist yet!")}
 else {
 Answer = (kn/n)*Math.pow(R,2/3)*Math.pow(S,1/2);
 console.log(Answer);
