@@ -41,6 +41,7 @@ else if (R == 0) {Answer2.innerHTML = ""; alert("R cannot be zero!")}
 else if (n == 0) {Answer2.innerHTML = ""; alert("n cannot be zero! Super-Teflon does not exist yet!")}
 else {
 Answer = (kn/n)*Math.pow(R,2/3)*Math.pow(S,1/2);
+Answer=Answer.toFixed(4)
 console.log(Answer);
 Answer2.innerHTML = general_answer + Answer + unitvalue;
 }};
