@@ -11,8 +11,13 @@ color: green;
 }
 
 h1 {
-  background-color:
-  color: White;
+  color: black;
+  opacity: 0.95;
+margin-left: 20px;
+}
+
+h3 {
+  color: white;
   opacity: 0.95;
 margin-left: 20px;
 }
@@ -34,4 +39,4 @@ img {
   padding-left: 20px;
 }
 
-#mapid { height: 180px; }
+#mapid { height: 520px; }
