@@ -29,3 +29,16 @@ L.marker([40.299433, -111.704613]).addTo(map)
       'Many of the great influences of my life were meet in this building. I learned a lot ' +
       'and can honestly say that a lot of who I am today comes from experiences with my ward which meet in that building.')
 //    .openPopup();
+var polygon = L.polygon([
+    [40.300639,-111.702828],
+    [40.300621,-111.702405],
+    [40.300339,-111.702378],
+    [40.300351,-111.702839]
+]).addTo(map);
+
+var circle = L.circle([40.300627,-111.702528], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
