@@ -1,9 +1,5 @@
 body {
-background-image: url("NewZealand.JPG");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-attachment: scroll;
-  background-size: 100%;
+
 }
 
 Title {
@@ -39,4 +35,4 @@ img {
   padding-left: 20px;
 }
 
-#mapid { height: 520px; }
+    #mapid { position: absolute; top:0; bottom:0; right:0; left:0; }

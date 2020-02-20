@@ -1,8 +1,10 @@
-var map = L.map('mapid').setView([40.300504,-111.702573], 13);
+//var map = L.map('mapid').setView([40.300504,-111.702573], 13);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+//L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+//}).addTo(map);
+var map = L.map('mapid').setView([40.300504,-111.702573], 13)
+  L.esri.basemapLayer('Topographic').addTo(map);
 
 L.marker([40.300504,-111.702573]).addTo(map)
     .bindPopup('<b>My Home</b>, also referred to as <b>Home</b>, was were I ' +
