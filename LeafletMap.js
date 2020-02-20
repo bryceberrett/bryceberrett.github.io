@@ -1,4 +1,4 @@
-var map = L.map('mapid').setView([40.300504,-111.702573], 12);
+var map = L.map('mapid').setView([40.300504,-111.702573], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -40,5 +40,5 @@ var circle = L.circle([40.300627,-111.702528], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 500
+    radius: 1100
 }).addTo(map);
