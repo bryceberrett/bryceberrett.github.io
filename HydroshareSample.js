@@ -6,6 +6,7 @@
 var map = L.map('mapid').setView([40.300504,-111.702573], 3)
   L.esri.basemapLayer('Topographic').addTo(map);
 //var map = L.map(mapDiv, mapOptions);
+
 var Layers = {
 Countries: L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-df764c1b532e43b6b093acf94917040a/wms',
     {
